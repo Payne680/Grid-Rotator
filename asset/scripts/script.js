@@ -15,7 +15,7 @@ const allBtn = document.querySelectorAll('.btn')
 btn5.onclick = function () {
   nums.unshift(nums.pop())
   for (let i = 0; i <= 7; i++) {
-    document.getElementById('btn' + ids[i]).innerHTML = nums[i];
+    document.getElementById('btn' + ids[i]).innerHTML = nums[i]
   }
 }
 
